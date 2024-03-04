@@ -1,0 +1,14 @@
+{
+    "commit-author": "dankmeme01",
+    "platforms": [
+        "windows"
+    ],
+    "mod": {
+        "download": "https://github.com/dankmeme01/globed2/releases/download/v1.0.0/dankmeme.globed2.geode",
+        "hash": "74c1ba15b9398f2e5160aac007d781ea13d4f2137ea512756df2bb1de812aeeb",
+        "hash256": "a1296958dc3321a47c6312ef76cb4cd9748265485a23c841a9f29363d7a7f394"
+    },
+    "tags": [
+        "Online"
+    ]
+}

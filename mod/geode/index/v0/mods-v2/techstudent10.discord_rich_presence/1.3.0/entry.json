@@ -1,0 +1,12 @@
+{
+    "commit-author": "TechStudent10",
+    "platforms": [
+        "windows"
+    ],
+    "mod": {
+        "download": "https://github.com/TechStudent10/DiscordRPC/releases/download/v2.0.0/techstudent10.discord_rich_presence.geode",
+        "hash": "ff229dd547df678f2801fce5ead5181713da1f5a3b8d186e9315f5aa580a6e48",
+        "hash256": "433810d6c31b19987fb18aa956c31d0f70cbc6d6061fbd1b1b5c438b4c6e3c63"
+    },
+    "tags": []
+}

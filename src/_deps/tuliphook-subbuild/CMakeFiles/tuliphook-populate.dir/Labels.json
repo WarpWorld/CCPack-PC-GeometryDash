@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/tuliphook-populate"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/7541d9de2164263f5c12a2d0491279ed/tuliphook-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/35aae11a5f7327f65717319b662ba30c/tuliphook-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/ed065ab4b3877dceda7079df12d7800c/tuliphook-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/ed065ab4b3877dceda7079df12d7800c/tuliphook-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/ed065ab4b3877dceda7079df12d7800c/tuliphook-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/ed065ab4b3877dceda7079df12d7800c/tuliphook-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/ed065ab4b3877dceda7079df12d7800c/tuliphook-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/ed065ab4b3877dceda7079df12d7800c/tuliphook-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/ed065ab4b3877dceda7079df12d7800c/tuliphook-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/tuliphook-subbuild/CMakeFiles/ed065ab4b3877dceda7079df12d7800c/tuliphook-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tuliphook-populate"
+		],
+		"name" : "tuliphook-populate"
+	}
+}

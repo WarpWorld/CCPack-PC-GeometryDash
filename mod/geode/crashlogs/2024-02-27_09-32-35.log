@@ -1,0 +1,49 @@
+2024-02-27T09:32:35-0600
+Whoopsies! An unhandled exception has occurred.
+It appears that the crash occurred while executing code from the "dtothefourth.crowdcontrol" mod. Please submit this crash report to its developers (dtothefourth) for assistance.
+
+== Geode Information ==
+Loader Version: v2.0.0-beta.21
+Loader Commit: 06afbb8
+Bindings Commit: ff44163
+Installed mods: 3
+Problems: 0
+
+== Exception Information ==
+Faulty Module: C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll
+Faulty Mod: dtothefourth.crowdcontrol
+Exception Code: c0000005 (EXCEPTION_ACCESS_VIOLATION)
+Exception Flags: 0
+Exception Address: 18236009 (dtothefourth.crowdcontrol.dll + 16009 (T::stepone + 41 | C:\Users\Natalie\Dropbox\geodash\CrowdControl\src\main.cpp:99))
+Number Parameters: 2
+
+== Stack Trace ==
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll + 16009 (T::stepone + 41 | C:\Users\Natalie\Dropbox\geodash\CrowdControl\src\main.cpp:99)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\libcocos2d.dll + 10708f (cocos2d::CCTimer::update + 191)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\libcocos2d.dll + 106ec4 (cocos2d::CCScheduler::update + 276)
+ - 018A2D76
+ - 0FDD10A9
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\geode.devtools\geode.devtools.dll + 64db
+ - 0FDD0ECB
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\GeometryDash.exe + 3c12d8
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\Geode.dll + 16e444 (gdMainHook + 532 | D:\a\geode\geode\loader\src\platform\windows\main.cpp:59)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\GeometryDash.exe + 3c267e
+ - C:\Windows\System32\KERNEL32.DLL + 1fcc9 (BaseThreadInitThunk + 25)
+ - C:\Windows\SYSTEM32\ntdll.dll + 67c5e (RtlGetAppContainerNamedObjectPath + 286)
+ - C:\Windows\SYSTEM32\ntdll.dll + 67c2e (RtlGetAppContainerNamedObjectPath + 238)
+
+== Register States ==
+EAX: 00000001
+EBX: 0000004c
+ECX: 00000000
+EDX: 01cc0000
+EBP: 00fcfad8
+ESP: 00fcfac8
+EDI: 01d17778
+ESI: 0f44a2e0
+EIP: 18236009
+
+== Installed Mods ==
+x | [v1.0.0] dtothefourth.crowdcontrol
+x | [v1.5.0] geode.devtools
+x | [v2.0.0-beta.21] geode.loader

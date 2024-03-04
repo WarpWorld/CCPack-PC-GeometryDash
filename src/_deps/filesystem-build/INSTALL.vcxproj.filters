@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\CMakeFiles\0d0bc2ba27088d227100b87e3059d5c8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E08FB971-4FA3-3700-885D-0434F8B7A26C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

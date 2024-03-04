@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\5f72755286e1fadefc1bec96944f440a\filesystem-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\5f72755286e1fadefc1bec96944f440a\filesystem-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\5f72755286e1fadefc1bec96944f440a\filesystem-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\5f72755286e1fadefc1bec96944f440a\filesystem-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\5f72755286e1fadefc1bec96944f440a\filesystem-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\5f72755286e1fadefc1bec96944f440a\filesystem-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\5f72755286e1fadefc1bec96944f440a\filesystem-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\5f72755286e1fadefc1bec96944f440a\filesystem-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\a66372743c050c67ed96b04b13693d05\filesystem-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\6b1f58345e4dd926a9b105075854875e\filesystem-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-subbuild\CMakeFiles\filesystem-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F7BFF07A-952E-3E99-A88A-BFD4AAA7CCA0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

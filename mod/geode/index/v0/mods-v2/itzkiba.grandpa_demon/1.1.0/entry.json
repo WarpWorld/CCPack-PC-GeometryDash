@@ -1,0 +1,12 @@
+{
+    "commit-author": "ItzKiba",
+    "platforms": [
+        "windows"
+    ],
+    "mod": {
+        "download": "https://github.com/ItzKiba/GrandpaDemon/releases/download/v1.1.0/itzkiba.grandpa_demon.geode",
+        "hash": "c04b4370964251fa120ddac327af66f445c2f9e7a5dcbb2a75c437c7be548fd2",
+        "hash256": "2569021c9494113835bf9551c72e882ab87a710c93d5506ceac038eb67f5693e"
+    },
+    "tags": []
+}

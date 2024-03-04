@@ -1,0 +1,12 @@
+{
+    "commit-author": "AdyaGMD",
+    "platforms": [
+        "windows"
+    ],
+    "mod": {
+        "download": "https://github.com/AdyaGMD/IngameListMod/releases/download/release-geode-v1.1.0/adyagd.ingamelistmod.geode",
+        "hash": "d20a4577f32c3064024bb28d7cb6fb00d8e92234953aa10808fed6ac9da25fdc",
+        "hash256": "a9482c8c81758ee55d2eaab2381f905ba29621227f47472a7eee0d9a444ba2fd"
+    },
+    "tags": []
+}

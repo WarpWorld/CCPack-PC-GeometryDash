@@ -1,0 +1,18 @@
+{
+    "commit-author": "SpaghettDev",
+    "platforms": [
+        "macos",
+        "windows",
+        "android32",
+        "android64"
+    ],
+    "mod": {
+        "download": "https://github.com/SpaghettDev/GD-Roulette/releases/download/v2.0.1/spaghettdev.gd-roulette.geode",
+        "hash": "dfffe939948ae42baf7aaad440f2e8c84062d1bc2d08bdcae39be6287dd1e3c7",
+        "hash256": "f5c312203a493a367ee0499815cde1bb3ce6d1f7524313ee3a2e1350bb2783bf"
+    },
+    "tags": [
+        "Interface",
+        "Online"
+    ]
+}

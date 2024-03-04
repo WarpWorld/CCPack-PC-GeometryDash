@@ -1,0 +1,12 @@
+{
+    "commit-author": "snowyzia",
+    "platforms": [
+        "windows"
+    ],
+    "mod": {
+        "download": "https://github.com/snowyzia/geode-i-hate-you-top-lists/releases/download/1.0.0/izzy.i_hate_you_top_lists.geode",
+        "hash": "29bc145482716db12b07a8ebda93e832e4f528b4ee4e3a5ac2be2feb6a75c319",
+        "hash256": "182c63409b8e4f0f9e6dde969ab6f6575cb107a3d75141ba9f9720cab34ecddc"
+    },
+    "tags": []
+}

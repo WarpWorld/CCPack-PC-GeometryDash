@@ -1,0 +1,150 @@
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKEFILES\9A0D0D823938C7EDCD8765D3BE0D319D\FMT-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKEFILES\9A0D0D823938C7EDCD8765D3BE0D319D\FMT-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKEFILES\9A0D0D823938C7EDCD8765D3BE0D319D\FMT-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\fmt-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKEFILES\9A0D0D823938C7EDCD8765D3BE0D319D\FMT-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKEFILES\9A0D0D823938C7EDCD8765D3BE0D319D\FMT-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\fmt-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKEFILES\9A0D0D823938C7EDCD8765D3BE0D319D\FMT-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\fmt-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKEFILES\9A0D0D823938C7EDCD8765D3BE0D319D\FMT-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\fmt-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKEFILES\9A0D0D823938C7EDCD8765D3BE0D319D\FMT-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\fmt-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKEFILES\FD56E3B2350ED9DF1CD02A59428C9123\FMT-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/CMakeFiles/Debug/fmt-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKEFILES\14622C195F4C571BA5CCFBA3507BBE8E\FMT-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FMT-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild -BC:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild --check-stamp-file C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/fmt-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

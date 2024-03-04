@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/bindings-populate"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/a9089b68f464cd4debbc8a5ba69ec8fd/bindings-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/49ac8751e11e58ea2b3d90eb1ab8da18/bindings-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/f52217bb1a93df48af1527bec7b9371d/bindings-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/f52217bb1a93df48af1527bec7b9371d/bindings-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/f52217bb1a93df48af1527bec7b9371d/bindings-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/f52217bb1a93df48af1527bec7b9371d/bindings-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/f52217bb1a93df48af1527bec7b9371d/bindings-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/f52217bb1a93df48af1527bec7b9371d/bindings-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/f52217bb1a93df48af1527bec7b9371d/bindings-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/f52217bb1a93df48af1527bec7b9371d/bindings-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bindings-populate"
+		],
+		"name" : "bindings-populate"
+	}
+}

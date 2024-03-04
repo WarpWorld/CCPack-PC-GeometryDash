@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\bindings\bindings\Geode\GeneratedSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\CMakeFiles\ba318439aa80441d033dcfc4ed34abf7\CodegenData.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E08FB971-4FA3-3700-885D-0434F8B7A26C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{879B927A-A5CC-39E6-822E-F80A7A0ECE7E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

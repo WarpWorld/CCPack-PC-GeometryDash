@@ -1,0 +1,150 @@
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\F52217BB1A93DF48AF1527BEC7B9371D\BINDINGS-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/tmp/bindings-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/Debug/bindings-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\F52217BB1A93DF48AF1527BEC7B9371D\BINDINGS-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/tmp/bindings-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/Debug/bindings-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\F52217BB1A93DF48AF1527BEC7B9371D\BINDINGS-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/tmp/bindings-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\F52217BB1A93DF48AF1527BEC7B9371D\BINDINGS-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/Debug/bindings-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\F52217BB1A93DF48AF1527BEC7B9371D\BINDINGS-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/Debug/bindings-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\F52217BB1A93DF48AF1527BEC7B9371D\BINDINGS-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/Debug/bindings-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\F52217BB1A93DF48AF1527BEC7B9371D\BINDINGS-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/Debug/bindings-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\F52217BB1A93DF48AF1527BEC7B9371D\BINDINGS-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/Debug/bindings-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\49AC8751E11E58EA2B3D90EB1AB8DA18\BINDINGS-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/Debug/bindings-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/Debug/bindings-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\A9089B68F464CD4DEBBC8A5BA69EC8FD\BINDINGS-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\BINDINGS-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild -BC:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild --check-stamp-file C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/bindings-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

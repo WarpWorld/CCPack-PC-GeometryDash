@@ -1,0 +1,55 @@
+2024-02-28T06:23:18-0600
+Whoopsies! An unhandled exception has occurred.
+
+== Geode Information ==
+Loader Version: v2.0.0-beta.21
+Loader Commit: 06afbb8
+Bindings Commit: ff44163
+Installed mods: 3
+Problems: 0
+
+== Exception Information ==
+Faulty Module: C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\GeometryDash.exe
+Faulty Mod: <Unknown>
+Exception Code: c0000005 (EXCEPTION_ACCESS_VIOLATION)
+Exception Flags: 0
+Exception Address: 00000000 (00000000)
+Number Parameters: 2
+
+== Stack Trace ==
+ - 00000000
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\GeometryDash.exe + 315a3
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\GeometryDash.exe + 30e5b
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\GeometryDash.exe + 30d6e
+ - 18D61E5A
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll + af048 (FLAlertLayer::create + 40 | C:\Users\Natalie\Dropbox\geodash\CrowdControl\build\bindings\bindings\Geode\GeneratedSource.cpp:433)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll + 20d21 (Connector::Connect + 225 | C:\Users\Natalie\Dropbox\geodash\CrowdControl\src\connector.cpp:199)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll + 1c463 (std::_Invoke_stored<bool (__thiscall Connector::*)(void),Connector *> + 19 | C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\future:1415)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll + 23dc9 (std::_Func_impl_no_alloc<std::_Fake_no_copy_callable_adapter<bool (__thiscall Connector::*)(void),Connector *>,bool>::_Do_call + 9 | C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\functional:841)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll + 22ecc (std::_Packaged_state<bool __cdecl(void)>::_Call_immediate + 76 | C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\future:514)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll + 23d60 (std::_Func_impl_no_alloc<`Concurrency::details::_MakeVoidToUnitFunc'::`2'::<lambda_1>,unsigned char>::_Do_call + 16 | C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\functional:841)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll + 29e69 (Concurrency::details::_PPLTaskHandle<unsigned char,Concurrency::task<unsigned char>::_InitialTaskHandle<void,`std::_Task_async_state<bool>::_Task_async_state<bool><std::_Fake_no_copy_callable_adapter<bool (__thiscall Connector::*)(void),Connector *> >'::`2'::<lambda_1>,Concurrency::details::_TypeSelectorNoAsync>,Concurrency::details::_TaskProcHandle>::invoke + 265 | C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ppltasks.h:1472)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll + 27997 (Concurrency::details::_TaskProcHandle::_RunChoreBridge + 55 | C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\pplwin.h:164)
+ - C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\unzipped\dtothefourth.crowdcontrol\dtothefourth.crowdcontrol.dll + 22fe8 (Concurrency::details::_DefaultPPLTaskScheduler::_PPLTaskChore::_Callback + 56 | C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\pplwin.h:54)
+ - C:\Windows\SYSTEM32\MSVCP140.dll + 1529c (Concurrency::details::_Schedule_chore + 140)
+ - C:\Windows\SYSTEM32\ntdll.dll + 36d04 (TpCallbackIndependent + 5396)
+ - C:\Windows\SYSTEM32\ntdll.dll + 35da2 (TpCallbackIndependent + 1458)
+ - C:\Windows\System32\KERNEL32.DLL + 1fcc9 (BaseThreadInitThunk + 25)
+ - C:\Windows\SYSTEM32\ntdll.dll + 67c5e (RtlGetAppContainerNamedObjectPath + 286)
+ - C:\Windows\SYSTEM32\ntdll.dll + 67c2e (RtlGetAppContainerNamedObjectPath + 238)
+
+== Register States ==
+EAX: 1aa53058
+EBX: 1e16f8a8
+ECX: 1e2f4500
+EDX: 7af65988
+EBP: 09a9f8c4
+ESP: 09a9f850
+EDI: 1e2ece70
+ESI: 7aee6744
+EIP: 00000000
+
+== Installed Mods ==
+x | [v1.0.0] dtothefourth.crowdcontrol
+x | [v1.5.0] geode.devtools
+x | [v2.0.0-beta.21] geode.loader

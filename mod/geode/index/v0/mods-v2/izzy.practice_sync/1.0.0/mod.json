@@ -1,0 +1,18 @@
+{
+	"geode": "2.0.0",
+	"gd": "2.204",
+	"version": "v1.0.0",
+	"id": "izzy.practice_sync",
+	"name": "Practice Sync",
+	"developer": "izzy",
+	"description": "Simple mod that allows you to force unlock the Practice Mode Sync.",
+	"repository": "https://github.com/snowyzia/practice-sync",
+	"settings": {
+		"mod-enabled": {
+			"name": "Mod Enabled?",
+			"description": "Determines wether or not the mod is enabled.",
+			"type": "bool",
+			"default": true
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/filesystem-populate"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/6b1f58345e4dd926a9b105075854875e/filesystem-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/a66372743c050c67ed96b04b13693d05/filesystem-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/5f72755286e1fadefc1bec96944f440a/filesystem-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/5f72755286e1fadefc1bec96944f440a/filesystem-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/5f72755286e1fadefc1bec96944f440a/filesystem-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/5f72755286e1fadefc1bec96944f440a/filesystem-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/5f72755286e1fadefc1bec96944f440a/filesystem-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/5f72755286e1fadefc1bec96944f440a/filesystem-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/5f72755286e1fadefc1bec96944f440a/filesystem-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/5f72755286e1fadefc1bec96944f440a/filesystem-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"filesystem-populate"
+		],
+		"name" : "filesystem-populate"
+	}
+}

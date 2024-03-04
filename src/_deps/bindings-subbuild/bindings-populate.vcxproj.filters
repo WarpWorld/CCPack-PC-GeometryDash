@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\f52217bb1a93df48af1527bec7b9371d\bindings-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\f52217bb1a93df48af1527bec7b9371d\bindings-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\f52217bb1a93df48af1527bec7b9371d\bindings-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\f52217bb1a93df48af1527bec7b9371d\bindings-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\f52217bb1a93df48af1527bec7b9371d\bindings-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\f52217bb1a93df48af1527bec7b9371d\bindings-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\f52217bb1a93df48af1527bec7b9371d\bindings-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\f52217bb1a93df48af1527bec7b9371d\bindings-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\49ac8751e11e58ea2b3d90eb1ab8da18\bindings-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\a9089b68f464cd4debbc8a5ba69ec8fd\bindings-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\bindings-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BEB28534-ADA4-3937-838A-460E47C86E88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+#pragma once
+#include <stdexcept>
+#include <Geode/platform/platform.hpp>
+#include <Geode/c++stl/gdstdlib.hpp>
+#include <cocos2d.h>
+#include <cocos-ext.h>
+#include <Geode/GeneratedPredeclare.hpp>
+#include <Geode/Enums.hpp>
+#include <Geode/utils/SeedValue.hpp>
+
+
+class GJMPDelegate {
+public:
+    static constexpr auto CLASS_NAME = "GJMPDelegate";
+    
+private:
+    [[deprecated("GJMPDelegate::joinLobbyFinished not implemented")]]
+    /**
+     */
+    virtual TodoReturn joinLobbyFinished(int p0);
+public:
+    
+private:
+    [[deprecated("GJMPDelegate::joinLobbyFailed not implemented")]]
+    /**
+     */
+    virtual TodoReturn joinLobbyFailed(int p0, GJMPErrorCode p1);
+public:
+    
+private:
+    [[deprecated("GJMPDelegate::didUploadMPComment not implemented")]]
+    /**
+     */
+    virtual TodoReturn didUploadMPComment(int p0);
+public:
+    
+private:
+    [[deprecated("GJMPDelegate::updateComments not implemented")]]
+    /**
+     */
+    virtual TodoReturn updateComments();
+public:
+};

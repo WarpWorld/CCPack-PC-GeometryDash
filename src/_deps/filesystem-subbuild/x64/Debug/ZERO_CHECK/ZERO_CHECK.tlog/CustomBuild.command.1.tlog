@@ -1,0 +1,10 @@
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\6B1F58345E4DD926A9B105075854875E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild -BC:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

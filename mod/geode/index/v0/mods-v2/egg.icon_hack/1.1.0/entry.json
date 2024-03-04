@@ -1,0 +1,12 @@
+{
+    "commit-author": "eggonthebeat",
+    "platforms": [
+        "windows"
+    ],
+    "mod": {
+        "download": "https://github.com/eggonthebeat/IconHack/releases/download/v1.3.0/egg.icon_hack.geode",
+        "hash": "5bb3f6d206b30ce1ebdb77b2e05d3cc79dda075a2e5bb2c202f5ea0bdf413118",
+        "hash256": "82fbdb2363271e543358d49c3b71a95cd00939aadfb04d56c2b8a8886c5460b6"
+    },
+    "tags": []
+}

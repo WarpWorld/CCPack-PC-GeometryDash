@@ -1,0 +1,112 @@
+11:23:59 INFO  [Main] [Geode]: Running Geode v2.0.0-beta.21 in Geometry Dash v2.204
+11:23:59 INFO  [Main] [Geode]: Setting up internal mod
+11:23:59 INFO  [Main] [Geode]: Setting up loader
+11:23:59 DEBUG [Main] [Geode]:   Loading launch arguments
+11:23:59 DEBUG [Main] [Geode]:   Setting up crash handler
+11:23:59 DEBUG [Main] [Geode]:   Loading hooks
+11:23:59 DEBUG [Main] [Geode]:     Enabled cocos2d::CCFileUtils::fullPathForFilename hook at 0x7b650f40 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled cocos2d::CCFileUtils::sharedFileUtils hook at 0x7b659770 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled cocos2d::CCNode::getUserObject hook at 0x7b6a31f0 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled cocos2d::CCNode::setUserObject hook at 0x7b5f15a0 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled LoadingLayer::init hook at 0x1276370 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled LoadingLayer::loadAssets hook at 0x1276bd0 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled MenuLayer::init hook at 0x127b450 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled ProfilePage::getUserInfoFinished hook at 0x12f1db0 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled AchievementNotifier::willSwitchToScene hook at 0x101c200 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled AppDelegate::trySaveGame hook at 0x105b790 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled cocos2d::CCScheduler::update hook at 0x7b696db0 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled CCTextInputNode::ccTouchBegan hook at 0x10304f0 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Enabled LoadingLayer::loadAssets hook at 0x1276bd0 for geode.loader
+11:23:59 DEBUG [Main] [Geode]:   Setting up directories
+11:23:59 INFO  [Main] [Geode]:   Refreshing mod graph
+11:23:59 DEBUG [Main] [Geode]:     Queueing mods
+11:23:59 DEBUG [Main] [Geode]:       Searching C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\mods
+11:23:59 DEBUG [Main] [Geode]:         Found dtothefourth.crowdcontrol.geode
+11:23:59 DEBUG [Main] [Geode]:           id: dtothefourth.crowdcontrol
+11:23:59 DEBUG [Main] [Geode]:           version: v1.0.0
+11:23:59 DEBUG [Main] [Geode]:           early: no
+11:23:59 DEBUG [Main] [Geode]:         Found geode.devtools.geode
+11:23:59 DEBUG [Main] [Geode]:           id: geode.devtools
+11:23:59 DEBUG [Main] [Geode]:           version: v1.5.0
+11:23:59 DEBUG [Main] [Geode]:           early: no
+11:23:59 DEBUG [Main] [Geode]:     Populating mod list
+11:23:59 DEBUG [Main] [Geode]:       dtothefourth.crowdcontrol v1.0.0
+11:23:59 DEBUG [Main] [Geode]:       geode.devtools v1.5.0
+11:23:59 DEBUG [Main] [Geode]:     Building mod graph
+11:23:59 DEBUG [Main] [Geode]:       geode.loader
+11:23:59 DEBUG [Main] [Geode]:       geode.devtools
+11:23:59 DEBUG [Main] [Geode]:         geode.loader
+11:23:59 DEBUG [Main] [Geode]:       dtothefourth.crowdcontrol
+11:23:59 DEBUG [Main] [Geode]:         geode.loader
+11:23:59 DEBUG [Main] [Geode]:     Loading early mods
+11:23:59 INFO  [Main] [Geode]:     Took 0.04s. Continuing next frame...
+11:23:59 DEBUG [Main] [Geode]: Setting up IPC
+11:23:59 DEBUG [Main] [Geode]:   IPC set up
+11:23:59 INFO  [Main] [Geode]: Starting loader update check
+11:23:59 INFO  [Main] [Geode]: Entry took 0.081s
+11:24:07 INFO  [Main] [Geode]: Continuing mod graph refresh...
+11:24:07 DEBUG [Main] [Geode]:   Loading mods
+11:24:07 DEBUG [Main] [Geode]:     geode.devtools v1.5.0
+11:24:07 ERROR [Main] [Geode]: Failed to fetch updates Empty response
+11:24:07 DEBUG [Mod Unzip] [Geode]:  Unzip
+11:24:07 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+11:24:07 DEBUG [Main] [Geode]:       Load
+11:24:07 DEBUG [Main] [Geode]:       Loading binary for mod geode.devtools
+11:24:07 DEBUG [Main] [Geode]:       Enabled cocos2d::CCMouseDispatcher::dispatchScrollMSG hook at 0x7b644970 for geode.devtools
+11:24:07 DEBUG [Main] [Geode]:       Enabled cocos2d::CCTouchDispatcher::touches hook at 0x7b688a10 for geode.devtools
+11:24:07 DEBUG [Main] [Geode]:       Enabled cocos2d::CCIMEDispatcher::dispatchDeleteBackward hook at 0x7b689f70 for geode.devtools
+11:24:07 DEBUG [Main] [Geode]:       Enabled cocos2d::CCIMEDispatcher::dispatchInsertText hook at 0x7b689fb0 for geode.devtools
+11:24:07 DEBUG [Main] [Geode]:       Enabled cocos2d::CCNode::sortAllChildren hook at 0x7b5f1630 for geode.devtools
+11:24:07 DEBUG [Main] [Geode]:       Enabled cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG hook at 0x7b62be70 for geode.devtools
+11:24:07 DEBUG [Main] [Geode]:       Enabled AchievementNotifier::willSwitchToScene hook at 0x101c200 for geode.devtools
+11:24:07 DEBUG [Main] [Geode]:       Enabled cocos2d::CCDirector::drawScene hook at 0x7b692ae0 for geode.devtools
+11:24:07 DEBUG [Main] [Geode]:       Enabled cocos2d::CCEGLView::swapBuffers hook at 0x7b6581b0 for geode.devtools
+11:24:07 DEBUG [Main] [Geode]:       Enabled AppDelegate::applicationWillEnterForeground hook at 0x105b530 for geode.devtools
+11:24:07 INFO  [Main] [Geode]: Took 0.144s
+11:24:07 INFO  [Main] [Geode]: Continuing mod graph refresh...
+11:24:07 DEBUG [Main] [Geode]:   Loading mods
+11:24:07 DEBUG [Main] [Geode]:     dtothefourth.crowdcontrol v1.0.0
+11:24:07 DEBUG [Mod Unzip] [Geode]:  Unzip
+11:24:07 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+11:24:07 DEBUG [Main] [Geode]:       Load
+11:24:07 DEBUG [Main] [Geode]:       Loading binary for mod dtothefourth.crowdcontrol
+11:24:07 DEBUG [Main] [Geode]:       Enabled MenuLayer::init hook at 0x127b450 for dtothefourth.crowdcontrol
+11:24:07 DEBUG [Main] [Geode]:       Enabled PlayLayer::init hook at 0x12dc4a0 for dtothefourth.crowdcontrol
+11:24:07 INFO  [Main] [Geode]: Took 0.041s
+11:24:07 INFO  [Main] [Geode]: Continuing mod graph refresh...
+11:24:07 DEBUG [Main] [Geode]:   Finding problems
+11:24:07 DEBUG [Main] [Geode]:     geode.loader
+11:24:07 DEBUG [Main] [Geode]:     geode.devtools
+11:24:07 DEBUG [Main] [Geode]:     dtothefourth.crowdcontrol
+11:24:07 INFO  [Main] [Geode]:   Took 0s
+11:24:07 DEBUG [Main] [Geode]: Verifying Loader Resources
+11:24:07 DEBUG [Main] [Geode]: Loading Loader Resources
+11:24:07 DEBUG [Main] [Geode]: Loading mod resources
+11:24:07 DEBUG [Main] [Geode]: Adding resources
+11:24:07 DEBUG [Main] [Geode]:   geode.loader
+11:24:07 DEBUG [Main] [Geode]:     Adding sheet geode.loader/LogoSheet
+11:24:07 DEBUG [Main] [Geode]:     Adding sheet geode.loader/APISheet
+11:24:07 DEBUG [Main] [Geode]:     Adding sheet geode.loader/BlankSheet
+11:24:11 DEBUG [Main] [Geode]: Checking updates for index
+11:24:12 DEBUG [Main] [Geode]: Downloading index
+11:24:13 DEBUG [Index Update] [Geode]: Unzipping index
+11:24:18 DEBUG [Index Update] [Geode]: Updating local index cache
+11:24:23 WARN  [Index Update] [Geode]:   settings.randomise-main-menu-bg contains unknown key "platforms"
+11:24:23 WARN  [Index Update] [Geode]:   settings.force-bg contains unknown key "platforms"
+11:24:26 WARN  [Index Update] [Geode]:   settings.mouse-move-on-zoom contains unknown key "platforms"
+11:24:26 WARN  [Index Update] [Geode]:   settings.grid-size-controls contains unknown key "platforms"
+11:24:26 WARN  [Index Update] [Geode]:   settings.show-grid-on-size-change contains unknown key "platforms"
+11:24:26 WARN  [Index Update] [Geode]:   settings.soft-save-enabled contains unknown key "platforms"
+11:24:27 DEBUG [Index Update] [Geode]:   Done
+11:24:40 INFO  [Main] [Geode]: Saving mod data...
+11:24:40 DEBUG [Main] [Geode]:   geode.loader
+11:24:40 DEBUG [Main] [Geode]:     Check covered
+11:24:40 DEBUG [Main] [Geode]:     Check if auto-check-updates is saved
+11:24:40 DEBUG [Main] [Geode]:     Check if show-platform-console is saved
+11:24:40 DEBUG [Main] [Geode]:     Check if disable-last-crashed-popup is saved
+11:24:40 DEBUG [Main] [Geode]:     Check if auto-update-mods is saved
+11:24:40 DEBUG [Main] [Geode]:   geode.devtools
+11:24:40 DEBUG [Main] [Geode]:     Check covered
+11:24:40 DEBUG [Main] [Geode]:   dtothefourth.crowdcontrol
+11:24:40 DEBUG [Main] [Geode]:     Check covered
+11:24:40 INFO  [Main] [Geode]:   Took 0.001s

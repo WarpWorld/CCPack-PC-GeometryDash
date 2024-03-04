@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\bindings-subbuild\CMakeFiles\a9089b68f464cd4debbc8a5ba69ec8fd\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BEB28534-ADA4-3937-838A-460E47C86E88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

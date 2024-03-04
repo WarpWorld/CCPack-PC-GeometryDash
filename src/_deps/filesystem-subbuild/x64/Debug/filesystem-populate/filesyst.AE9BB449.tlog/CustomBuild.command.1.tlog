@@ -1,0 +1,150 @@
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\5F72755286E1FADEFC1BEC96944F440A\FILESYSTEM-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/tmp/filesystem-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/Debug/filesystem-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\5F72755286E1FADEFC1BEC96944F440A\FILESYSTEM-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/tmp/filesystem-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/Debug/filesystem-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\5F72755286E1FADEFC1BEC96944F440A\FILESYSTEM-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/tmp/filesystem-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\5F72755286E1FADEFC1BEC96944F440A\FILESYSTEM-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/Debug/filesystem-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\5F72755286E1FADEFC1BEC96944F440A\FILESYSTEM-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/Debug/filesystem-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\5F72755286E1FADEFC1BEC96944F440A\FILESYSTEM-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/Debug/filesystem-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\5F72755286E1FADEFC1BEC96944F440A\FILESYSTEM-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/Debug/filesystem-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\5F72755286E1FADEFC1BEC96944F440A\FILESYSTEM-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Natalie\Dropbox\geodash\CrowdControl\_deps\filesystem-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/Debug/filesystem-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\A66372743C050C67ED96B04B13693D05\FILESYSTEM-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/Debug/filesystem-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/Debug/filesystem-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKEFILES\6B1F58345E4DD926A9B105075854875E\FILESYSTEM-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NATALIE\DROPBOX\GEODASH\CROWDCONTROL\_DEPS\FILESYSTEM-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild -BC:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild --check-stamp-file C:/Users/Natalie/Dropbox/geodash/CrowdControl/_deps/filesystem-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

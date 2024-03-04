@@ -1,0 +1,24 @@
+#pragma once
+#include <Geode/modify/Modify.hpp>
+#include <Geode/modify/Field.hpp>
+#include <Geode/binding/SelectSFXSortDelegate.hpp>
+using namespace geode::modifier;
+namespace geode::modifier {
+    
+	#ifndef GEODE_STATICS_sortSelectClosed
+		#define GEODE_STATICS_sortSelectClosed
+		GEODE_AS_STATIC_FUNCTION(sortSelectClosed) 
+	#endif
+
+
+	template<class Der>
+	struct ModifyDerive<Der, SelectSFXSortDelegate> : ModifyBase<ModifyDerive<Der, SelectSFXSortDelegate>> {
+        using BaseModify = ModifyBase<ModifyDerive<Der, SelectSFXSortDelegate>>;
+		using ModifyBase<ModifyDerive<Der, SelectSFXSortDelegate>>::ModifyBase;
+		using Base = SelectSFXSortDelegate;
+        using Derived = Der;
+		void apply() override {
+
+		}
+	};
+}
