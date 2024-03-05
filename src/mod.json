@@ -1,9 +1,9 @@
 {
 	"geode": "2.0.0-beta.21",
 	"gd": "2.204",
-	"version": "v1.0.0",
-	"id": "dtothefourth.crowdcontrol",
+	"version": "v0.1.0",
+	"id": "crowdcontrol.crowdcontrol",
 	"name": "CrowdControl",
-	"developer": "dtothefourth",
+	"developer": "CrowdControl",
 	"description": "Crowd Control Support for Geometry Dash"
 }

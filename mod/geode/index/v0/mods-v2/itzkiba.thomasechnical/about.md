@@ -1,3 +1,0 @@
-# Thomas Echnical
-
-thomas echnical
