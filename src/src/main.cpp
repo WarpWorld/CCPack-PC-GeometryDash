@@ -314,10 +314,16 @@ class $modify(T, PlayLayer) {
 				player->setColor(color);
 			}
 			if(spin>0){
-				layer->setRotationX(spin);
-				layer->setRotationY(spin);
+				
 				spin+=2;
-				if(spin>=360)spin=-1;
+				if(spin>=360){
+					spin=-1;
+					layer->setRotationX(0);
+					layer->setRotationY(0);
+				} else {
+					layer->setRotationX(spin);
+					layer->setRotationY(spin);
+				}
 			}
 
 			if(scale>0){
@@ -369,7 +375,7 @@ class $modify(T, PlayLayer) {
 					return;
 				}			
 				if(!strcmp(code,"spin")){
-					startTimer(id, "Flip Camera In...", 3, len, Spin, ResetRotate);
+					startTimer(id, "Spin Camera In...", 3, len, Spin, 0);
 					return;
 				}
 				if(!strcmp(code,"invis")){
@@ -570,7 +576,7 @@ class $modify(T, PlayLayer) {
 			if(func)func();
 			if(dur){
 				layer->scheduleOnce(schedule_selector(T::end), dur);
-			}
+			} else endid=-1;
 
 			return;
 		}
