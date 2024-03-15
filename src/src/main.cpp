@@ -577,7 +577,7 @@ class $modify(T, PlayLayer) {
 			if(dur){
 				layer->scheduleOnce(schedule_selector(T::end), dur);
 			} else endid=-1;
-
+			func = 0;
 			return;
 		}
 
@@ -600,13 +600,12 @@ class $modify(T, PlayLayer) {
 			delay--;
 			label->setString("", true);
 			label2->setString("", true);
-			func();
 
 			if(func)func();
 			if(dur){
 				layer->scheduleOnce(schedule_selector(T::end), dur);
 			}
-
+			func = 0;
 			return;
 		}
 
