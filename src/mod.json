@@ -4,8 +4,14 @@
         "win": "2.206"
     },
 	"id": "crowdcontrol.crowdcontrol",
-	"name": "CrowdControl",
-	"version": "v1.1.0",
-	"developer": "CrowdControl",
-	"description": "Provides support Crowd Control!"
+	"name": "Crowd Control",
+	"version": "v1.1.1",
+	"developer": "Crowd Control",
+	"description": "Crowd Control lets your viewers interact with the games you play on stream.",
+	"repository": "https://github.com/WarpWorld/CCPack-PC-GeometryDash",
+    "links": {
+        "community": "https://discord.warp.world/",
+        "homepage": "https://crowdcontrol.live/",
+        "source": "https://github.com/WarpWorld/CCPack-PC-GeometryDash"
+    }
 }

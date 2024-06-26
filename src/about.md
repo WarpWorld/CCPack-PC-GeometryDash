@@ -11,3 +11,7 @@ Effect List can be found here: https://crowdcontrol.live/game/geometry-dash
 ## Setup
 Our Geometry Dash setup guide can be found here: https://crowdcontrol.live/guides/GeometryDash/
 
+
+---
+
+Our mod source can be found on [GitHub](https://github.com/WarpWorld/CCPack-PC-GeometryDash).
