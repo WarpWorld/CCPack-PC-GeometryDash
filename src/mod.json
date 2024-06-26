@@ -1,9 +1,11 @@
 {
-	"geode": "2.0.0-beta.21",
-	"gd": "2.204",
-	"version": "v0.1.0",
+	"geode": "3.1.1",
+	"gd": {
+        "win": "2.206"
+    },
 	"id": "crowdcontrol.crowdcontrol",
 	"name": "CrowdControl",
+	"version": "v1.1.0",
 	"developer": "CrowdControl",
-	"description": "Crowd Control Support for Geometry Dash"
+	"description": "Provides support Crowd Control!"
 }
