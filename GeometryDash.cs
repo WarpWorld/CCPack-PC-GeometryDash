@@ -16,7 +16,7 @@ public class GeometryDash : SimpleTCPPack<SimpleTCPServerConnector>
 
     public override Game Game { get; } = new("Geometry Dash", "GeometryDash", "PC", ConnectorType.SimpleTCPServerConnector);
 
-    public override EffectList Effects => new List<Effect>
+    public override EffectList Effects { get; } = new List<Effect>
     {
 
         new Effect("Close Up Camera", "zoomin") { Category = "Camera", Duration = 10},
