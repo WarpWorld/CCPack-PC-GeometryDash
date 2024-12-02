@@ -1,11 +1,11 @@
 {
-	"geode": "3.1.1",
+	"geode": "4.0.1",
 	"gd": {
-        "win": "2.206"
+        "win": "2.2074"
     },
 	"id": "crowdcontrol.crowdcontrol",
 	"name": "Crowd Control",
-	"version": "v1.1.1",
+	"version": "v1.1.2",
 	"developer": "Crowd Control",
 	"description": "Crowd Control lets your viewers interact with the games you play on stream.",
 	"repository": "https://github.com/WarpWorld/CCPack-PC-GeometryDash",
