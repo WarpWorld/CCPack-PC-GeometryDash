@@ -12,7 +12,7 @@ public class GeometryDash : SimpleTCPPack<SimpleTCPServerConnector>
 
     public override HashSet<string> OmittedFields { get; } = ["sourceDetails"];
 
-    public override ISimpleTCPPack.MessageFormat MessageFormat => ISimpleTCPPack.MessageFormat.CrowdControlLegacy;
+    public override ISimpleTCPPack.MessageFormatType MessageFormat => ISimpleTCPPack.MessageFormatType.CrowdControlLegacy;
 
     public GeometryDash(UserRecord player, Func<CrowdControlBlock, bool> responseHandler, Action<object> statusUpdateHandler) : base(player, responseHandler, statusUpdateHandler) { }
 
