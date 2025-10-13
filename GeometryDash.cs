@@ -23,38 +23,38 @@ public class GeometryDash : SimpleTCPPack<SimpleTCPServerConnector>
     public override EffectList Effects { get; } = new List<Effect>
     {
 
-        new Effect("Close Up Camera", "zoomin") { Category = "Camera", Duration = 10},
-        new Effect("Far Camera", "zoomout") { Category = "Camera", Duration = 10},
-        new Effect("Ultra Far Camera", "zoomout2") { Category = "Camera", Duration = 10},
+        new("Close Up Camera", "zoomin") { Category = "Camera", Duration = 10},
+        new("Far Camera", "zoomout") { Category = "Camera", Duration = 10},
+        new("Ultra Far Camera", "zoomout2") { Category = "Camera", Duration = 10},
 
-        new Effect("Skew Camera", "rotate") { Category = "Camera", Duration = 10},
-        new Effect("Strong Skew Camera", "rotate2") { Category = "Camera", Duration = 10},
+        new("Skew Camera", "rotate") { Category = "Camera", Duration = 10},
+        new("Strong Skew Camera", "rotate2") { Category = "Camera", Duration = 10},
 
-        new Effect("Tilt Camera", "rotate3") { Category = "Camera", Duration = 10},
-        new Effect("Strong Tilt Camera", "rotate4") { Category = "Camera", Duration = 10},
+        new("Tilt Camera", "rotate3") { Category = "Camera", Duration = 10},
+        new("Strong Tilt Camera", "rotate4") { Category = "Camera", Duration = 10},
 
-        new Effect("Rotate Camera", "rotate5") { Category = "Camera", Duration = 10},
-        new Effect("Flip Camera", "rotate6") { Category = "Camera", Duration = 10},
+        new("Rotate Camera", "rotate5") { Category = "Camera", Duration = 10},
+        new("Flip Camera", "rotate6") { Category = "Camera", Duration = 10},
 
-        new Effect("Spin Camera", "spin") {Category = "Camera" },
+        new("Spin Camera", "spin") {Category = "Camera" },
 
-        new Effect("Invisible Player", "invis") { Duration = 10 },
-        new Effect("Reverse Player", "reverse") { Duration = 3 },
-        new Effect("Invert Controls", "invert") { Duration = 10 },
+        new("Invisible Player", "invis") { Duration = 10 },
+        new("Reverse Player", "reverse") { Duration = 3 },
+        new("Invert Controls", "invert") { Duration = 10 },
 
 
-        new Effect("Giant Player", "giant") { Category = "Size", Duration = 10},
-        new Effect("Tiny Player", "tiny") { Category = "Size", Duration = 10},
+        new("Giant Player", "giant") { Category = "Size", Duration = 10},
+        new("Tiny Player", "tiny") { Category = "Size", Duration = 10},
 
-        new Effect("Red Player", "red") {Category = "Color" },
-        new Effect("Orange Player", "orange") {Category = "Color" },
-        new Effect("Yellow Player", "yellow") {Category = "Color" },
-        new Effect("Green Player", "green") {Category = "Color" },
-        new Effect("Blue Player", "blue") {Category = "Color" },
-        new Effect("Purple Player", "purple") {Category = "Color" },
-        new Effect("Pink Player", "pink") {Category = "Color" },
-        new Effect("White Player", "white") {Category = "Color" },
-        new Effect("Black Player", "black") {Category = "Color" },
+        new("Red Player", "red") {Category = "Color" },
+        new("Orange Player", "orange") {Category = "Color" },
+        new("Yellow Player", "yellow") {Category = "Color" },
+        new("Green Player", "green") {Category = "Color" },
+        new("Blue Player", "blue") {Category = "Color" },
+        new("Purple Player", "purple") {Category = "Color" },
+        new("Pink Player", "pink") {Category = "Color" },
+        new("White Player", "white") {Category = "Color" },
+        new("Black Player", "black") {Category = "Color" },
 
         //new Effect("bird", "bird"),
 
