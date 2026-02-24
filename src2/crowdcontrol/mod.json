@@ -1,0 +1,22 @@
+{
+	"geode": "5.0.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "crowdcontrol.crowdcontrol",
+	"name": "Crowd Control",
+	"version": "v1.1.3",
+	"developer": "crowdcontrol",
+	"description": "Let your viewers interact with the game!",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	},
+	"links": {
+		"community": "https://discord.warp.world/",
+		"homepage": "https://crowdcontrol.live/",
+		"source": "https://github.com/WarpWorld/CCPack-PC-GeometryDash"
+	}
+}
