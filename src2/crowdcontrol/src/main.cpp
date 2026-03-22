@@ -117,6 +117,8 @@ int spin = -1;
 int endid = -1;
 int colorid = -1;
 float scale = 0;
+bool autojump = false;
+
 void (*func)();
 void (*func2)();
 
@@ -309,6 +311,15 @@ class $modify(T, PlayLayer) {
 
 		if (!connector || !connector->IsConnected()) return;
 
+		if(autojump){
+			player = PlayLayer::get()->m_player1;
+			if(player->m_isOnGround && !player->m_isDead){
+				player->pushButton(PlayerButton::Jump); 
+				player->releaseButton(PlayerButton::Jump);
+				autojump = false;
+			}
+		}
+
 		if (colorm) {
 			player = PlayLayer::get()->m_player1;
 			player->setColor(color);
@@ -406,6 +417,16 @@ class $modify(T, PlayLayer) {
 
 			if (!strcmp(code, "invert")) {
 				startTimer(id, "Invert Controls In...", 3, len, Invert, ResetInvert);
+				return;
+			}
+
+			if (!strcmp(code, "jump")) {
+				if (autojump) {
+					connector->RespondTimed(id, STATUS_RETRY, "", 0);
+					return;
+				}
+				autojump = true;
+				connector->RespondTimed(id, STATUS_SUCCESS, "", 0);
 				return;
 			}
 
