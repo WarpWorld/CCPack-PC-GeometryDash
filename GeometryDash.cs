@@ -38,6 +38,7 @@ public class GeometryDash : SimpleTCPPack<SimpleTCPServerConnector>
 
         new("Spin Camera", "spin") {Category = "Camera" },
 
+        new("Trigger Jump", "jump"),
         new("Invisible Player", "invis") { Duration = 10 },
         new("Reverse Player", "reverse") { Duration = 3 },
         new("Invert Controls", "invert") { Duration = 10 },
