@@ -463,8 +463,7 @@ static void updateLevelEffectAvailability() {
 
 	const auto state = queryPlayState();
 	const bool gameplayActive = isLevelGameplayActive();
-	const bool selectable = gameplayActive &&
-		(state == GDPlayState::Ready || state == GDPlayState::Paused);
+	const bool selectable = gameplayActive && state == GDPlayState::Ready;
 	if (selectable == levelEffectsSelectable) return;
 
 	levelEffectsSelectable = selectable;
@@ -1274,6 +1273,8 @@ class $modify(T, PlayLayer) {
 class $modify(CCPauseEffectStatusHook, PauseLayer) {
 	void customSetup() {
 		PauseLayer::customSetup();
+		publishGameState();
+		updateLevelEffectAvailability();
 		syncTimedEffectsToCC(true);
 		updateCcDebugOverlay();
 		ccLog("pause_status", PlayLayer::get(), "");
@@ -1284,6 +1285,8 @@ class $modify(CCPauseEffectStatusHook, PauseLayer) {
 		syncTimedEffectsToCC(false);
 		ccLog("resume_status", PlayLayer::get(), "");
 		PauseLayer::onResume(sender);
+		publishGameState();
+		updateLevelEffectAvailability();
 	}
 };
 
