@@ -1,5 +1,5 @@
 #pragma once
-#define DEFAULT_BUFLEN 512
+#define DEFAULT_BUFLEN 8192
 
 
 #include <vector>
@@ -8,6 +8,8 @@
 #include <thread>
 #include <array>
 #include <map>
+#include <condition_variable>
+#include <chrono>
 
 template <class value_type>
 class value_lock
@@ -68,6 +70,7 @@ class Connector
 
 	std::mutex m_mutex;
 	std::map<UINT, std::shared_ptr<Command>> command_map;
+	std::map<UINT, std::shared_ptr<Command>> pending_command_map;
 	std::map<std::string, std::shared_ptr<Command>> timer_map;
 
 	std::future<void> run_thread;
@@ -91,6 +94,18 @@ class Connector
 	bool connecting = false;
 	bool checking = false;
 	bool menuOpened = false;
+	bool wsaInitialized = false;
+	bool stopping = false;
+	bool m_game_update_requested = false;
+	unsigned m_game_update_request_id = 0;
+
+	std::mutex m_stop_mutex;
+	std::condition_variable m_stop_cv;
+
+	void waitForThread(std::future<void>& thread);
+	void waitForConnectThread(std::future<bool>& thread);
+	void setSocketTimeouts(SOCKET socket);
+	bool connectWithTimeout(SOCKET socket, const sockaddr* addr, int addrlen);
 
 public:
 
@@ -98,6 +113,7 @@ public:
 	~Connector();
 
 	std::vector<std::string> msgs;
+	std::mutex msgs_mutex;
 	void ResetError();
 	const char* GetError();
 	bool HasError();
@@ -107,14 +123,18 @@ public:
 	void OnMenu(bool isOpen);
 
 	int GetItemCount();
+	int GetPendingCommandCount();
 	std::shared_ptr<Command> PopItem();
+	std::shared_ptr<Command> PopCommand();
 
 	void NewTimer(UINT command_id, int miliseconds);
 	void ExtendTimer(UINT command_id, int miliseconds);
 	bool HasTimer(UINT command_id);
 	bool HasTimer(std::string command_name);
 	void ClearTimers();
+	void ClearAllCommands();
 
+	void HandleDisconnect();
 	void ConnectAsync();
 	bool Connect();
     void Stop();
@@ -123,7 +143,10 @@ public:
 	void Respond(int id, int status, std::string message);
 	void RespondVis(std::string code, int status, std::string message);
 	void RespondTimed(int id, int status, std::string message, int dur);
+	void CompleteCommand(UINT command_id);
+
+	bool PollGameUpdateRequest(unsigned& out_id);
+	void SendGameUpdate(unsigned id, int state);
 
 	void Run();
 };
-

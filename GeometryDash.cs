@@ -20,8 +20,11 @@ public class GeometryDash : SimpleTCPPack<SimpleTCPServerConnector>
 
     public override Game Game { get; } = new("Geometry Dash", "GeometryDash", "PC", ConnectorType.SimpleTCPServerConnector);
 
+    protected override SITimeSpan GameStateCheckInterval { get; } = 0.50f;
+
     public override EffectList Effects { get; } = new List<Effect>
     {
+        new("Clear State", "clearState") { Price = 0, Category = "Debug", Description = "Resets active Crowd Control effects to defaults." },
 
         new("Close Up Camera", "zoomin") { Category = "Camera", Duration = 10},
         new("Far Camera", "zoomout") { Category = "Camera", Duration = 10},

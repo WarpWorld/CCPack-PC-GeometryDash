@@ -8,7 +8,7 @@
 	},
 	"id": "crowdcontrol.crowdcontrol",
 	"name": "Crowd Control",
-	"version": "v1.1.3",
+	"version": "v1.2.0",
 	"developer": "crowdcontrol",
 	"description": "Let your viewers interact with the game!",
 	"dependencies": {
