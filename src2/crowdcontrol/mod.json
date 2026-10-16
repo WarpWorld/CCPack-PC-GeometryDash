@@ -1,14 +1,14 @@
 {
 	"geode": "5.0.1",
 	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
+		"win": "2.209",
+		"android": "2.209",
+		"mac": "2.209",
+		"ios": "2.209"
 	},
 	"id": "crowdcontrol.crowdcontrol",
 	"name": "Crowd Control",
-	"version": "v1.2.0",
+	"version": "v1.2.1",
 	"developer": "crowdcontrol",
 	"description": "Let your viewers interact with the game!",
 	"dependencies": {
