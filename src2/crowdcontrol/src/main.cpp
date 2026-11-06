@@ -3,6 +3,7 @@
  */
 #include <Geode/Geode.hpp>
 #include <Geode/loader/Dirs.hpp>
+#include <asp/fs/std.hpp>
 #include <algorithm>
 #include <cstdio>
 #include <fstream>
@@ -258,8 +259,8 @@ static GDPlayState queryPlayState() {
 static std::vector<std::filesystem::path> ccLogFilePaths() {
 	// Game folder (next to GeometryDash.exe) is easiest to find; Geode save is backup.
 	return {
-		dirs::getGameDir() / "crowdcontrol_pause.log",
-		dirs::getGeodeDir() / "save" / "crowdcontrol.crowdcontrol" / "crowdcontrol_pause.log",
+		dirs::getGameDir().toStdPath().unwrap() / "crowdcontrol_pause.log",
+		dirs::getGeodeDir().toStdPath().unwrap() / "save" / "crowdcontrol.crowdcontrol" / "crowdcontrol_pause.log",
 	};
 }
 
@@ -1201,8 +1202,8 @@ class $modify(T, PlayLayer) {
 		finishTimedEffect();
 	}
 
-	bool init(GJGameLevel * level, bool useReplay, bool dontCreateObjects) {
-		if (!PlayLayer::init(level, useReplay, dontCreateObjects))
+	bool init(GJGameLevel * level, bool dontCreateObjects) {
+		if (!PlayLayer::init(level, dontCreateObjects))
 			return false;
 
 		auto winSize = CCDirector::get()->getWinSize();
