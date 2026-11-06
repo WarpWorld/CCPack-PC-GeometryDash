@@ -90,6 +90,11 @@ PlayerObject* player = 0;
 int delay = -1;
 int dur;
 float spin = -1.0f;
+float camScale = 1.0f;
+bool camZoomed = false;
+float camRotX = 0.0f;
+float camRotY = 0.0f;
+bool camRotated = false;
 int endid = -1;
 int colorid = -1;
 float scale = 0;
@@ -227,6 +232,8 @@ static void clearEffectState() {
 	autojump = false;
 	invert = false;
 	scale = 0;
+	camZoomed = false;
+	camRotated = false;
 	func = nullptr;
 	func2 = nullptr;
 	player = nullptr;
@@ -474,62 +481,67 @@ static void updateLevelEffectAvailability() {
 }
 
 void ZoomIn() {
-	if (!layer) return;
-	layer->setScale(2.0f);
+	camScale = 2.0f;
+	camZoomed = true;
 }
 
 void ZoomOut() {
-	if (!layer) return;
-	layer->setScale(0.5f);
+	camScale = 0.5f;
+	camZoomed = true;
 }
 
 void ZoomOut2() {
-	if (!layer) return;
-	layer->setScale(0.25f);
+	camScale = 0.25f;
+	camZoomed = true;
 }
 
 void ResetZoom() {
-	if (!layer) return;
-	layer->setScale(1.0f);
+	camZoomed = false;
+	camScale = 1.0f;
+	if (layer) layer->setScale(1.0f);
 }
 
 void ResetRotate() {
-	if (!layer) return;
-	layer->setRotationX(0.0f);
-	layer->setRotationY(0.0f);
+	camRotated = false;
+	camRotX = 0.0f;
+	camRotY = 0.0f;
+	if (layer) {
+		layer->setRotationX(0.0f);
+		layer->setRotationY(0.0f);
+	}
 }
 
 
 void Rotate() {
-	if (!layer) return;
-	layer->setRotationX(30.0f);
+	camRotX = 30.0f;
+	camRotated = true;
 }
 
 void Rotate2() {
-	if (!layer) return;
-	layer->setRotationX(60.0f);
+	camRotX = 60.0f;
+	camRotated = true;
 }
 
 void Rotate3() {
-	if (!layer) return;
-	layer->setRotationY(30.0f);
+	camRotY = 30.0f;
+	camRotated = true;
 }
 
 void Rotate4() {
-	if (!layer) return;
-	layer->setRotationY(60.0f);
+	camRotY = 60.0f;
+	camRotated = true;
 }
 
 void Rotate5() {
-	if (!layer) return;
-	layer->setRotationX(45.0f);
-	layer->setRotationY(45.0f);
+	camRotX = 45.0f;
+	camRotY = 45.0f;
+	camRotated = true;
 }
 
 void Rotate6() {
-	if (!layer) return;
-	layer->setRotationX(180.0f);
-	layer->setRotationY(180.0f);
+	camRotX = 180.0f;
+	camRotY = 180.0f;
+	camRotated = true;
 }
 
 void Spin() {
@@ -869,6 +881,14 @@ class $modify(T, PlayLayer) {
 			}
 		}
 
+		if (camZoomed && layer) {
+			layer->setScale(camScale);
+		}
+		if (camRotated && layer) {
+			layer->setRotationX(camRotX);
+			layer->setRotationY(camRotY);
+		}
+
 		const int elapsedMs = (int)(dt * 1000.0f);
 		if (endid >= 0 && delay < 0 && remainingMs > 0)
 			remainingMs = std::max(0, remainingMs - elapsedMs);
@@ -1119,7 +1139,7 @@ class $modify(T, PlayLayer) {
 		}
 
 		if (queryPlayState() != GDPlayState::Ready) {
-			this->scheduleOnce(schedule_selector(T::tick), 1.0f);
+			this->scheduleOnce(schedule_selector(T::tickb), 1.0f);
 			return;
 		}
 
@@ -1163,7 +1183,7 @@ class $modify(T, PlayLayer) {
 		}
 
 		if (queryPlayState() != GDPlayState::Ready) {
-			this->scheduleOnce(schedule_selector(T::tickb), 1.0f);
+			this->scheduleOnce(schedule_selector(T::tick), 1.0f);
 			return;
 		}
 
