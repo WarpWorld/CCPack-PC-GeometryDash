@@ -1,5 +1,5 @@
 {
-	"geode": "6.0.0-alpha.1",
+	"geode": "6.0.0-alpha.2",
 	"gd": {
 		"win": "2.2091",
 		"android": "2.2091",
@@ -8,7 +8,7 @@
 	},
 	"id": "crowdcontrol.crowdcontrol",
 	"name": "Crowd Control",
-	"version": "v1.2.3",
+	"version": "v1.2.4",
 	"developer": "crowdcontrol",
 	"description": "Let your viewers interact with the game!",
 	"dependencies": {
